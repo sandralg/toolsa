@@ -276,7 +276,7 @@
     <Content Include="Sispreprofesional.aspx" />
     <Content Include="Sisprestandard.aspx" />
     <Content Include="Urbatool.aspx" />
-    <Content Include="Videos\videoClip.mp4" />
+    <EmbeddedResource Include="Videos\videoClip.mp4" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
