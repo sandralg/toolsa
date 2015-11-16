@@ -1,0 +1,259 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ToolSA.Main" %>
+
+<%@ Import Namespace="System.Web.Optimization" %>
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <%-- Style Section --%>
+    <%--   <%: Styles.Render("~/bundles/BootstrapCss")  %>--%>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Tool Software</title>
+    <!-- Bootstrap core CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/languages.min.css" rel="stylesheet">
+    <link href="Content/languageStyle.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-2.1.4.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.glob.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var esImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Spanien.gif";
+            var enImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif";
+            var ptImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Portugal.gif";
+            var plImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Polen.gif";
+
+            var imgBtnSel = $('#imgBtnSel');
+            var imgBtnEs = $('#imgBtnEs');
+            var imgBtnEn = $('#imgBtnEn');
+            var imgBtnPt = $('#imgBtnPt');
+            var imgBtnPl = $('#imgBtnPl');
+
+            var imgNavSel = $('#imgNavSel');
+            var imgNavEs = $('#imgNavEs');
+            var imgNavEn = $('#imgNavEn');
+            var imgNavPt = $('#imgNavPt');
+            var imgNavPl = $('#imgNavPl');
+
+            var spanNavSel = $('#lanNavSel');
+            var spanBtnSel = $('#lanBtnSel');
+
+            imgBtnSel.attr("src", esImgLink);
+            imgBtnEs.attr("src", esImgLink);
+            imgBtnEn.attr("src", enImgLink);
+            imgBtnPt.attr("src", ptImgLink);
+            imgBtnPl.attr("src", plImgLink);
+
+            imgNavSel.attr("src", esImgLink);
+            imgNavEs.attr("src", esImgLink);
+            imgNavEn.attr("src", enImgLink);
+            imgNavPt.attr("src", ptImgLink);
+            imgNavPl.attr("src", plImgLink);
+
+
+            $(".language").on("click", function (event) {
+                var currentId = $(this).attr('id');
+
+                if (currentId == "navEs") {
+                    imgNavSel.attr("src", esImgLink);
+                    spanNavSel.text("Español");
+                } else if (currentId == "navEn") {
+                    imgNavSel.attr("src", enImgLink);
+                    spanNavSel.text("English");
+                } else if (currentId == "navPt") {
+                    imgNavSel.attr("src", ptImgLink);
+                    spanNavSel.text("Português");
+                } else if (currentId == "navPt") {
+                    imgNavSel.attr("src", plImgLink);
+                    spanNavSel.text("Polskie");
+                }
+
+                if (currentId == "btnEs") {
+                    imgBtnSel.attr("src", esImgLink);
+                    spanBtnSel.text("Español");
+                } else if (currentId == "btnEn") {
+                    imgBtnSel.attr("src", enImgLink);
+                    spanBtnSel.text("English");
+                } else if (currentId == "btnPt") {
+                    imgBtnSel.attr("src", ptImgLink);
+                    spanBtnSel.text("Português");
+                } else if (currentId == "btnPl") {
+                    imgBtnSel.attr("src", plImgLink);
+                    spanBtnSel.text("Polskie");
+                }
+
+            });
+        });
+    </script>
+    <%--       <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>--%>
+    <%--    <script>
+        $(document).ready(function () {
+
+            $('.container a').click(function () {
+
+                var $target = $($(this).data('target'));
+
+                if (!$target.hasClass('in'))
+
+                    $('.container .in').removeClass('in').height(0);
+
+            });
+        });
+
+    </script>--%>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <%--    <style type="text/css">
+        #bootstrapSelectForm .selectContainer .form-control-feedback
+        {
+            /* Adjust feedback icon position */
+            right: -15px;
+        }
+    </style>--%>
+    <!-- Custom styles for this template -->
+    <asp:ContentPlaceHolder ID="StyleSection" runat="server" />
+</head>
+<body>
+    <%--<form id="form1" runat="server">--%>
+    <div class="container">
+        <div class="navbar-wrapper">
+            <div class="container">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                                aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                                    class="icon-bar"></span><span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="../ContentPage.aspx">
+                                <img style="max-width: 100px; margin-top: -7px;" src="Images/Logo_01_Alto_64.png" /></a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../Login.aspx">Acceso Clientes <span id="cliente"></span></a></li>
+                                <%--        <div class="btn-group dropdown center-block">
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">
+                                        <span class="lang-sm lang-lbl" lang="es"></span><span class="caret"></span>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><span class="lang-sm lang-lbl-full" lang="de"></span></li>
+                                        <li><span class="lang-sm lang-lbl-full" lang="en"></span></li>
+                                        <li><span class="lang-sm lang-lbl-full" lang="es"></span></li>
+                                        <li><span class="lang-sm lang-lbl-full" lang="pt"></span></li>
+                                        <li><span class="lang-sm lang-lbl-full" lang="pl"></span></li>
+                                    </ul>
+                                    </li>
+                                </div>--%>
+                                <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                </div>
+                                <button type="submit" class="btn btn-default">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                                <button type="button" class="btn btn-default">
+                                    <img id="imgBtnSel" src="" alt="..." class="img-thumbnail icon-small">
+                                    <span id="lanBtnSel">Español</span></button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a id="btnEs" href="#" class="language">
+                                        <img id="imgBtnEs" src="" alt="..." class="img-thumbnail icon-small">
+                                        <span id="lanBtnEs">Español</span></a></li>
+                                    <li><a id="btnEn" href="#" class="language">
+                                        <img id="imgBtnEn" src="" alt="..." class="img-thumbnail icon-small">
+                                        <span id="lanBtnEn">English</span></a></li>
+                                    <li><a id="btnPt" href="#" class="language">
+                                        <img id="imgBtnPt" src="" alt="..." class="img-thumbnail icon-small">
+                                        <span id="lanBtnPt">Português</span></a></li>
+                                    <li><a id="btnPl" href="#" class="language">
+                                        <img id="imgBtnPl" src="" alt="..." class="img-thumbnail icon-small">
+                                        <span id="lanBtnPl">Polskie</span></a></li>
+                                </ul>
+                                </form>
+                            </ul>
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Productos <span id="productos"></span>
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/Clip.aspx">Clip</a></li>
+                                        <li><a href="/Sispre.aspx">Sispre</a></li>
+                                        <li><a href="/Urbatool.aspx">Urbatool</a></li>
+                                        <li><a href="/Curvado.aspx">Curvado</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#about">Ingeniería <span id="ingenieria"></span></a></li>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Empresa <span id="empresa" class="caret">
+                                    </span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/empresa.aspx">Quiénes somos <span id="historia"></span></a></li>
+                                        <li><a href="/contacto.aspx">Contacto <span id="contacto"></span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <!-- Content Page Section -->
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentSection" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <p class="pull-right">
+                    <a href="#">Inicio<span id="inicio"></span></a></p>
+                <p>
+                    &copy; 2015 Tool S.A. &middot; <a href="#">Privacidad <span id="privacidad"></span>
+                    </a>&middot; <a href="#">Términos</a></p>
+                <div class="social-icons">
+                    <a target="_blank" href="http://twitter.com" class="twitter">Twitter</a> <a target="_blank"
+                        href="http://www.facebook.com" class="facebook">Facebook</a> <a target="_blank" href="http://www.linkedin.com"
+                            class="linkedin">LinkedIn</a> <a target="_blank" href="http://www.youtube.com" class="youtube">
+                                YouTube</a>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+        </footer>
+    </div>
+    <!-- /container -->
+    <asp:ContentPlaceHolder ID="ScriptSection" runat="server" />
+    <%-- Script Section --%>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder
+    images work. Don't actually copy the next line! -->
+    <script src="Scripts/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Scripts/ie10-viewport-bug-workaround.js"></script>
+    <%-- <%: Scripts.Render("~/bundles/jQuery") %>--%>
+    <%--</form>--%>
+</body>
+</html>

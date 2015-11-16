@@ -1,0 +1,94 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Planobra.aspx" caret="6460" fromTop="49" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Urbatool.aspx" caret="2863" fromTop="22" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Sispre.aspx" caret="443" fromTop="7" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Login.aspx" caret="470" fromTop="8" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:contacto.aspx" caret="447" fromTop="7" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:empresa.aspx" caret="816" fromTop="1" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Curvado.aspx.cs" caret="211" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx.cs" caret="208" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Abastecimiento.aspx.cs" caret="218" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:empresa.aspx.cs" caret="211" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Login.aspx.cs" caret="209" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Planobra.aspx.cs" caret="212" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Saneamiento.aspx.cs" caret="215" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Sispre.aspx.cs" caret="210" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Sispreprofesional.aspx.cs" caret="221" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Sisprestandard.aspx.cs" caret="218" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Urbatool.aspx.cs" caret="212" fromTop="0" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:contacto.aspx.cs" caret="212" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:BasePage.cs" caret="278" fromTop="12" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Web.config" caret="699" fromTop="18" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:ContentPage.aspx.cs" caret="318" fromTop="16" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Main.Master.cs" caret="317" fromTop="14" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:GlobalizeUrls.cs" caret="632" fromTop="21" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Curvado.aspx" caret="583" fromTop="11" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:comprar.aspx" caret="1017" fromTop="23" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:ContentPage.aspx" caret="882" fromTop="0" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/d:Videos/f:VideopresentacionCLIPsp.html" caret="0" fromTop="0" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Global.asax.cs" caret="278" fromTop="9" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Main.Master" caret="3951" fromTop="14" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="2687" fromTop="35" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="11" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="30" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="12" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="17" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="17" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="24" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="19" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="31" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="14" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="12" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="19" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="20" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Main.Master" caret="12093" fromTop="29" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="171" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="171" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="2" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="38" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="0" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="11717" fromTop="38" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10917" fromTop="21" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10917" fromTop="20" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10917" fromTop="19" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10917" fromTop="59" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10990" fromTop="27" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10921" fromTop="11" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10917" fromTop="18" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="1168" fromTop="18" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="10980" fromTop="19" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="570" fromTop="10" />
+      <File id="A2E7194A-FBDD-4FC7-B725-53E9808F1DE8/f:Clip.aspx" caret="1734" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlAnchor">
+      <Item value="span" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JetBrains.ReSharper.Feature.Services.Asp.CodeCompletion.AspBasicCodeCompletionContext">
+      <Item value="ctx" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
