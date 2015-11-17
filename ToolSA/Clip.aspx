@@ -30,7 +30,8 @@
                     <h3 class="panel-title">
                         CLIP</h3>
                 </div>
-                <video id="video1" controls="controls" poster="Images/800x450_16x9_01.jpg" src="/Videos/videoClip.mp4">        
+                <video id="video1" controls="controls" poster="Images/800x450_16x9_01.jpg">        
+                     <source src="/Videos/videoClip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>                   
                     <p>
                         Fallback message - Your browser does not support the video element.</p>
                 </video>
